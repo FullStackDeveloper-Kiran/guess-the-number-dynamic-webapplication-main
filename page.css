@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.gussing-game {
+    background-color: #59FFF5;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.gussing-game-header-image {
+    width: 50%;
+    max-width: 500px;
+}
+
+.gussing-game-header-heading,
+.gussing-game-footer-heading {
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: 800;
+}
+
+.gussing-game-footer-image {
+    max-width: 400px;
+}
+
+.gussing-game-footer-guess-button {
+    width: 120px;
+    height: 42px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+
+}
+
+.gussing-game-footer-input {
+    width: 250px;
+    height: 52px;
+}
+
+.gussing-game-footer-result {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+}
